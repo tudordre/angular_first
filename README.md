@@ -1,20 +1,38 @@
 # angular_first
 
-Proiect Angular de bază creat pentru testare și dezvoltare locală.
+A minimal Angular starter project for local development and testing.
 
-Prerechizite:
-- Node v24.15.0
+## Prerequisites
+- Node.js v24.15.0 (recommended)
 - npm
-- Angular CLI (opțional: npx @angular/cli)
+- Angular CLI (optional: use npx @angular/cli)
 
-Instalare și rulare:
+## Installation
+Install dependencies:
+
 ```bash
 npm install
+```
+
+## Running the app
+Start the development server:
+
+```bash
 npx ng serve --host 0.0.0.0 --port 4200 --open
 ```
 
-Contribuire: folosește branching (feature/*), commit clar și pull request.
+The app will be available at http://localhost:4200/.
 
-Best practices: .github/copilot/best-practices.md
+## Project layout
+- src/ — application source code
+- public/ — static assets
+- .github/copilot/best-practices.md — project-specific best practices for GitHub Copilot
 
-License: MIT
+## Contributing
+Use feature branches (feature/*), write clear commits, and open pull requests for review.
+
+## Code style
+Keep code small and focused; prefer descriptive names and add unit tests for new features.
+
+## License
+MIT
